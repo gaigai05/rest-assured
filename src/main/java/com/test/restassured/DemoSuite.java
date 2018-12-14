@@ -1,4 +1,4 @@
-package com.test.restassured.test;
+package com.test.restassured;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

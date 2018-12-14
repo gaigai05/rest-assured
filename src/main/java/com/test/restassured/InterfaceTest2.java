@@ -1,4 +1,4 @@
-package com.test.restassured.test;
+package com.test.restassured;
 
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -85,11 +85,6 @@ public class InterfaceTest2 {
         List<String> titleList = response.jsonPath().getList("topics.title");
         System.out.println("===" + titleList);
 
-
-    }
-
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
 
     }
 

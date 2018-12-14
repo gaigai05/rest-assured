@@ -1,4 +1,4 @@
-package com.test.restassured.test;
+package com.test.restassured;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
