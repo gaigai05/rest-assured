@@ -2,6 +2,7 @@ package com.test.restassured;
 
 import io.restassured.response.Response;
 import org.junit.Test;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.File;
 import java.util.HashMap;
@@ -10,6 +11,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.get;
 
+@SpringBootApplication
 public class InterfaceTest2 {
 
     //多个test方法可以同时进行

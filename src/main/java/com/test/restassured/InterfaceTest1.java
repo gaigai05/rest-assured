@@ -4,10 +4,12 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
+@SpringBootApplication
 public class InterfaceTest1 {
 
     //检验HTML页面是否正确的方法

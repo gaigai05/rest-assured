@@ -1,5 +1,8 @@
 package com.test.restassured;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Md5Test {
 
     public static void setKey(){

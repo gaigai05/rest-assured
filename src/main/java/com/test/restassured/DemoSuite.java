@@ -2,6 +2,7 @@ package com.test.restassured;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 //多个case有执行顺序时 RunWith、Suite实现
 //有业务关系的接口
@@ -13,6 +14,7 @@ import org.junit.runners.Suite;
         InterfaceTest1.class,
         InterfaceTest.class
 })
+@SpringBootApplication
 public class DemoSuite {
 
 

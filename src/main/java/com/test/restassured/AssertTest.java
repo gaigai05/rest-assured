@@ -3,6 +3,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import static io.restassured.RestAssured.*;
 import static io.restassured.RestAssured.given;
@@ -12,6 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItems;
 import static org.junit.Assert.*;
 
+@SpringBootApplication
 public class AssertTest {
 
     //beforeclass机制，固定方法动作初始化
