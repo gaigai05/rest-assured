@@ -51,11 +51,11 @@ public class AssertTest {
                 //.body("topics.title",hasItems("wrk,ab,locust,Jmeter 压测结果比较"))
                 //.body("topics.title[4]",equalTo("如果有一天空气也收费"))
                 //topics下最后一个title
-                .body("topics.id[-1]",equalTo(17205))
+                //.body("topics.id[-1]",equalTo(17205))
                 //findAll 结果是数组
                 //.body("topics.findAll{ topic->topic.id == 17204 }.title",hasItems("关于 Jmeter 压力测试的使用"))
                 //.body("topics.find{ topic->topic.id == 17204 }.title",equalTo("关于 Jmeter 压力测试的使用"))
-                .body("topics.title.size()",equalTo(23))
+                //.body("topics.title.size()",equalTo(23))
                 .extract().response();
         System.out.println("输出状态行：" + response.statusLine());//HTTP/1.1 200 OK
     }
