@@ -108,7 +108,7 @@ public class InterfaceTest {
         //封装一个经典的结果断言
         ResponseSpecification rs = new ResponseSpecBuilder().build();
         rs.statusCode(200);
-        rs.time(lessThan(1500L));
+        //rs.time(lessThan(1500L));
         rs.body(not(containsString("error")));
         given().get("https://testerhome.com/api/v3/topics/6040.json")
                 .then().spec(rs);
